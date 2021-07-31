@@ -53,7 +53,9 @@ public class MovieController {
 		return "Trending Movie Service:  working on port - " + env.getProperty("server.port") + 
 				"   Host Address: " + InetAddress.getLocalHost().getHostAddress() + 
 				"   Host Name: " + InetAddress.getLocalHost().getHostName();
-	}
+	
+System.out.println("Updating status method");
+}
 
 
 
